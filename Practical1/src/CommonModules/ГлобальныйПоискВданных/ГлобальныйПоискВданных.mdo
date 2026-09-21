@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="844b1b21-8507-4ee8-8ef0-ef68e250055d">
+  <name>ГлобальныйПоискВданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глобальный поиск вданных</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

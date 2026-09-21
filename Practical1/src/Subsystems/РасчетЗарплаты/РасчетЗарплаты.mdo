@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b517d6f8-006a-43c9-b61a-3228f01c8275">
+  <name>РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Зарплата</picture>
+  </picture>
+  <content>Report.ВыручкаМастеров</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>CalculationRegister.Начисления</content>
+  <content>Document.НачисленияСотрудникам</content>
+  <content>Report.Перерасчет</content>
+  <content>Report.НачисленияСотрудникам</content>
+  <content>Report.ДиаграммаНачислений</content>
+</mdclass:Subsystem>

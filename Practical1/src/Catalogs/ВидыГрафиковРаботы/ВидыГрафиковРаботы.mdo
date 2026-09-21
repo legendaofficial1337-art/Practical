@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e08dd4e-a0b9-494a-90bb-221b7a45c38c">
+  <producedTypes>
+    <objectType typeId="6a0ff7a0-8945-4ea3-a1bc-e4eac61742e6" valueTypeId="9bd1e2f8-0a79-409d-bfdd-231146ce30c5"/>
+    <refType typeId="f2a42eb3-9617-49ad-b510-4216511c326c" valueTypeId="a0dba5c0-7bae-4e0a-9598-a1f89063e824"/>
+    <selectionType typeId="a47e90c1-a6e4-4c47-9f4c-c3c4f9984d36" valueTypeId="a73a28d7-85d3-4250-843b-e1e9b3d3d139"/>
+    <listType typeId="3b3d3e79-eebd-4c59-ae62-5bc30cc001e5" valueTypeId="5ae11f18-e42a-4c0c-aa2a-f20519691a5a"/>
+    <managerType typeId="a09a6cd9-5804-4033-acba-378842f083e7" valueTypeId="460a222f-1225-4181-a87e-d4c274ca6d6b"/>
+  </producedTypes>
+  <name>ВидыГрафиковРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды графиков работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыГрафиковРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыГрафиковРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="965ec1e9-f564-47b2-a0cf-1e293c4f0863">
+      <name>ГрафикАдминистрации</name>
+      <description>График администрации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="601fba5e-12b2-4b9b-ab95-8bda1f94065b">
+      <name>ГрафикМастеров</name>
+      <description>График мастеров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

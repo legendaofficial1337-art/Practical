@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="958e48d9-151a-4369-9b2c-f81d45c39529">
+  <producedTypes>
+    <listType typeId="3b97f6e5-7504-487e-b079-5d32cb146834" valueTypeId="0004bee6-19f7-467c-a8ff-8de215cc9a5b"/>
+    <managerType typeId="fa150014-9b03-4b19-85fe-1dc84979bd30" valueTypeId="10628629-bbea-4df5-8dc8-6892e397ea81"/>
+  </producedTypes>
+  <name>ОказаниеУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оказание услуги</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Клиенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ОказаниеУслуги.Attribute.ОбъектОснование</content>
+</mdclass:FilterCriterion>
