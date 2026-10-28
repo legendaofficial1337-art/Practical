@@ -61,7 +61,7 @@
   <commonModules>CommonModule.ГлобальныйПоискВданных</commonModules>
   <commonModules>CommonModule.РегламентныеПроцедуры</commonModules>
   <commonModules>CommonModule.Обмен</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиент</commonModules>
+  <commonModules>CommonModule.УстановкаСрокаОплаты</commonModules>
   <exchangePlans>ExchangePlan.Филиалы</exchangePlans>
   <exchangePlans>ExchangePlan.Отделения</exchangePlans>
   <httpServices>HTTPService.BasedHTTP</httpServices>
