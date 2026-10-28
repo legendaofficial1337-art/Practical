@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14364192-5efc-4205-8051-2650462d4f41">
+  <name>BasedHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Based HTTP</value>
+  </synonym>
+  <rootURL>Hello</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1d9869d2-40d6-425c-8448-150803a86218">
+    <name>SayHello</name>
+    <synonym>
+      <key>ru</key>
+      <value>Say hello</value>
+    </synonym>
+    <template>/say</template>
+    <methods uuid="00561f8b-4237-4d2f-817b-d8c9ffa60410">
+      <name>GetMessage</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get message</value>
+      </synonym>
+      <handler>GetMessage</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
